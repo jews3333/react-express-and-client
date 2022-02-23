@@ -6,6 +6,6 @@ react + express 연동
 npm install -g heroku
 
 ## build 방법
-git add *
-git commit -m "commit"
-git push heroku master
+git add */
+git commit -m "commit"/
+git push heroku master/
