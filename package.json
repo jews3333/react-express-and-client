@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
-    "dev:server": "node index.js",
+    "dev:server": "npm start",
     "dev:client": "cd client && npm start",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
